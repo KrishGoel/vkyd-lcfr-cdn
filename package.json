@@ -1,15 +1,26 @@
 {
-  "name": "head-elements",
+  "name": "vkyd",
   "version": "1.0.0",
+  "description": "NextJS webapp for VKYD",
+  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
-    "next": "latest",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishSkywalker/vkyd-next.js.git"
   },
-  "license": "MIT"
+  "author": "KrishSkywalker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrishSkywalker/vkyd-next.js/issues"
+  },
+  "homepage": "https://vkyd-liart.vercel.app",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
 }
