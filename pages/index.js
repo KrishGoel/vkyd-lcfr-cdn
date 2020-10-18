@@ -98,15 +98,15 @@ const Index = () => {
                     max-width: 500px;
                     background-color: #333333;
                     border-radius: 20px;
-                    padding: 0px 40px;
+                    padding: 40px 40px;
                     color: #aaaaaa;
                     box-shadow: 12px 12px 16px 0 #00000088,
-                                -8px -8px 12px 0 #44444455;
+                                -8px -8px 12px 0 #4242424f;
                 }
 
                 @font-face {
                     font-family: Plateia;
-                    src: url(fonts/StretchPro.ttf);
+                    src: url(fonts/ExtenroSans-Regular.ttf);
                 }
                 @font-face {
                     font-family: Poppins;
@@ -114,10 +114,11 @@ const Index = () => {
                 }
 
                 h1 {
-                    font-size: calc(1.355rem + 6vw);
+                    font-size: calc(1.1rem + 4vw);
                     font-family: Plateia;
                     margin: 0; 
-                    padding: 0
+                    padding: 0;
+                    letter-spacing: -5px
                 }
                 h2 {
                     font-family: Poppins;
@@ -131,7 +132,7 @@ const Index = () => {
                 h3 {
                     font-size: 1.2rem;
                     font-family: Poppins;
-                    margin: 35px 0px 50px 0px; 
+                    margin: 0px; 
                     padding: 0
                 }
                 a {
