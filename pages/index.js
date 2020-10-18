@@ -115,7 +115,7 @@ const Index = () => {
 
                 h1 {
                     font-size: calc(1.355rem + 6vw);
-                    font-family: Plateia;
+                    font-family: Poppins;
                     margin: 0; 
                     padding: 0
                 }
