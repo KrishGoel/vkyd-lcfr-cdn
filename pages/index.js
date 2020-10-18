@@ -63,7 +63,7 @@ const Index = () => {
 
             </Head>
             <div className="sub-container">
-                <h1>LCFR</h1>
+                <img src="/logo.svg" /> 
                 <h2>VKYD's wick3d CDN</h2>
                 <h3>
                     Check us out at &nbsp;
@@ -105,21 +105,14 @@ const Index = () => {
                 }
 
                 @font-face {
-                    font-family: Plateia;
-                    src: url(fonts/ExtenroSans-Regular.ttf);
-                }
-                @font-face {
                     font-family: Poppins;
                     src: url(fonts/Poppins-Regular.ttf);
                 }
-
-                h1 {
-                    font-size: calc(1.1rem + 4vw);
-                    font-family: Plateia;
-                    margin: 0; 
-                    padding: 0;
-                    letter-spacing: -5px
+                
+                img {
+                    width: 400px
                 }
+
                 h2 {
                     font-family: Poppins;
                     font-size: calc(1.1rem + 0.3vw);
