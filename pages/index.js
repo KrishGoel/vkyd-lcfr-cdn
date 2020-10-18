@@ -4,37 +4,42 @@ const Index = () => {
     return (
         <div className="container">
             <Head>
-                <title>VKYD CDN</title>
 
-                <meta content="Krish Goel · KrishSkywalker" name="title" />
+                {/* Naming meta */}
+                <title>LCFR: VKYD'wick3d CDN</title>
+                <meta content="LCFR: VKYD'wick3d CDN" name="title" />
                 <meta content="Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type." name="description" />
                 <meta content="Krish Goel Skywalker Developer Freelancer Website Web Development Programming Engineering Imagineer New Delhi Coding UX UI Sanskriti School KrishSkywalker" name="keywords" />
+                
+                {/* Contact meta */}
+                <meta content="Krish Goel · KrishSkywalker" name="author" />
+                <link href="https://github.com/VKYD" rel="me" type="text/html" />
+                <link href="mailto:vkydclothing@gmail.com" rel="me" />
+                
+                {/* Browser config meta */}
                 <meta content="utf-8" name="charset" />
                 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
                 <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport" />
                 <link rel="manifest" href="/manifest.json" />
                 <meta content="English" name="language" />
-                <meta content="Krish Goel · KrishSkywalker" name="author" />
-                <meta content="#8a7df2" name="theme-color" meta="meta" />
-                <meta content="#8a7df2" name="msapplication-TileColor" />
-                <link href="https://github.com/KrishSkywalker" rel="me" type="text/html" />
-                <link href="mailto:krishgoel3@gmail.com" rel="me" />
                 <base href="/" />
+                <meta content="#000000" name="theme-color" meta="meta" />
+                <meta content="#e8026a" name="msapplication-TileColor" />
 
                 {/* Open Graph tags */}
                 <meta content="website" property="og:type" />
-                <meta content="https://krishgoel.com" property="og:url" />
-                <meta content="Krish Goel · KrishSkywalker" property="og:title" />
+                <meta content="https://vkyd.in" property="og:url" />
+                <meta content="LCFR: VKYD'wick3d CDN" property="og:title" />
                 <meta content="Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type." property="og:description" />
-                <meta property="og:image" src="https://krishgoel.vercel.app/images/meta.png" />
+                <meta property="og:image" src="https://vkyd-next-js-cdn.vercel.app/images/meta.png" />
                 <meta content="en_US" property="og:locale" />
                 
                 {/* Twitter tags */}
                 <meta content="summary" name="twitter:card" />
-                <meta content="http://www.krishgoel.com" name="twitter:url" />
-                <meta content="Krish Goel · KrishSkywalker" name="twitter:title" />
+                <meta content="http://www.vkyd.in" name="twitter:url" />
+                <meta content="LCFR: VKYD'wick3d CDN" name="twitter:title" />
                 <meta content="Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type." name="twitter:description" />
-                <meta content="https://krishgoel.vercel.app/images/twitter_meta.png" name="twitter:image" />
+                <meta content="https://vkyd-next-js-cdn.vercel.app/images/twitter_meta.png" name="twitter:image" />
 
                 {/* Icons */}
                 <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" /> 
@@ -51,20 +56,46 @@ const Index = () => {
                 <link href="/icons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
                 <link href="/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
                 <link href="/icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
-            </Head>
 
-            <h1>VKYD</h1>
-            <h2>
-                Pseduo-CDN
-                <br /><br />
-                Check us out at &nbsp;
-                <a href="https://vkyd.in">vkyd.in</a>
-            </h2>
-            
+            </Head>
+            <div className="sub-container">
+                <h1>LCFR</h1>
+                <h2>VKYD's wick3d CDN</h2>
+                <h3>
+                    Check us out at &nbsp;
+                    <a href="https://vkyd.in">vkyd.in</a>
+                </h3>
+            </div>
+
             <style jsx>{`
+                ::selection {
+                    background-color: #000000;
+                    color: #dddddd
+                }
+
                 .container {
+                    width: 100%;
+                    height: 120vh;
                     text-align: center;
-                    margin-top: 100px
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 40%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    
+                    background-color: #333333;
+                }
+                .sub-container {
+                    width: 60%;
+                    max-width: 500px;
+                    background-color: #333333;
+                    border-radius: 20px;
+                    padding: 0px 40px;
+                    color: #aaaaaa;
+                    box-shadow: 12px 12px 16px 0 #00000088,
+                                -8px -8px 12px 0 #44444455;
                 }
 
                 @font-face {
@@ -79,10 +110,23 @@ const Index = () => {
                 h1 {
                     font-size: calc(1.355rem + 6vw);
                     font-family: Plateia;
+                    margin: 0; 
+                    padding: 0
                 }
                 h2 {
+                    font-family: Poppins;
+                    font-size: calc(1.1rem + 0.3vw);
+                }
+                @media (min-width: 1200px) {
+                    h2 a {
+                        font-size: 1.5rem;
+                    }
+                }
+                h3 {
                     font-size: 1.2rem;
                     font-family: Poppins;
+                    margin: 35px 0px 50px 0px; 
+                    padding: 0
                 }
                 a {
                     text-decoration: none;
