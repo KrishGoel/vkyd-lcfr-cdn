@@ -110,7 +110,7 @@ const Index = () => {
                 }
                 
                 img {
-                    width: 400px
+                    width: 100%
                 }
 
                 h2 {
