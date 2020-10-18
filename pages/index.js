@@ -81,6 +81,7 @@ const Index = () => {
                     width: 100%;
                     height: 120vh;
                     text-align: center;
+                    text-align: -webkit-center;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -92,6 +93,7 @@ const Index = () => {
                     background-color: #333333;
                 }
                 .sub-container {
+                    text-align: -webkit-center;
                     width: 60%;
                     max-width: 500px;
                     background-color: #333333;
