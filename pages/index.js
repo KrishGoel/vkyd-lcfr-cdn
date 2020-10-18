@@ -106,7 +106,7 @@ const Index = () => {
 
                 @font-face {
                     font-family: Plateia;
-                    src: url(fonts/Plateia-Bold.ttf);
+                    src: url(fonts/StretchPro.ttf);
                 }
                 @font-face {
                     font-family: Poppins;
@@ -115,7 +115,7 @@ const Index = () => {
 
                 h1 {
                     font-size: calc(1.355rem + 6vw);
-                    font-family: Poppins;
+                    font-family: Plateia;
                     margin: 0; 
                     padding: 0
                 }
