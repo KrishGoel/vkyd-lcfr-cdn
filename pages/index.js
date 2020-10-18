@@ -1,15 +1,19 @@
 import Head from 'next/head';
 
 const Index = () => {
+    const title = "LCFR: VKYD's wick3d CDN";
+    const description = "Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type.";
+    const keywords = "Krish Goel Skywalker Developer Freelancer Website Web Development Programming Engineering Imagineer New Delhi Coding UX UI Sanskriti School KrishSkywalker";
+
     return (
         <div className="container">
             <Head>
 
                 {/* Naming meta */}
-                <title>LCFR: VKYD'wick3d CDN</title>
-                <meta content="LCFR: VKYD'wick3d CDN" name="title" />
-                <meta content="Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type." name="description" />
-                <meta content="Krish Goel Skywalker Developer Freelancer Website Web Development Programming Engineering Imagineer New Delhi Coding UX UI Sanskriti School KrishSkywalker" name="keywords" />
+                <title>{title}</title>
+                <meta content={title} name="title" />
+                <meta content={description} name="description" />
+                <meta content={keywords} name="keywords" />
                 
                 {/* Contact meta */}
                 <meta content="Krish Goel · KrishSkywalker" name="author" />
@@ -29,16 +33,16 @@ const Index = () => {
                 {/* Open Graph tags */}
                 <meta content="website" property="og:type" />
                 <meta content="https://vkyd.in" property="og:url" />
-                <meta content="LCFR: VKYD'wick3d CDN" property="og:title" />
-                <meta content="Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type." property="og:description" />
+                <meta content={title} property="og:title" />
+                <meta content={description} property="og:description" />
                 <meta property="og:image" src="https://vkyd-next-js-cdn.vercel.app/images/meta.png" />
                 <meta content="en_US" property="og:locale" />
                 
                 {/* Twitter tags */}
                 <meta content="summary" name="twitter:card" />
                 <meta content="http://www.vkyd.in" name="twitter:url" />
-                <meta content="LCFR: VKYD'wick3d CDN" name="twitter:title" />
-                <meta content="Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type." name="twitter:description" />
+                <meta content={title} name="twitter:title" />
+                <meta content={description} name="twitter:description" />
                 <meta content="https://vkyd-next-js-cdn.vercel.app/images/twitter_meta.png" name="twitter:image" />
 
                 {/* Icons */}
