@@ -1,7 +1,7 @@
 # LCFR 
 > Lucifer (_/ˈluːsɪfə(r)/_)
 
-**🌐 VKYD's wick3d CDN built on Next.JS**
+**🚀 VKYD's wick3d CDN built on Next.JS**
 
 ![DUB](https://img.shields.io/dub/l/vibe-d?label=License)
 
