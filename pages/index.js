@@ -32,10 +32,10 @@ const Index = () => {
 
                 {/* Open Graph tags */}
                 <meta content="website" property="og:type" />
-                <meta content="https://vkyd.in" property="og:url" />
+                <meta content="https://lcfr.vkyd.in" property="og:url" />
                 <meta content={title} property="og:title" />
                 <meta content={description} property="og:description" />
-                <meta property="og:image" src="https://vkyd-next-js-cdn.vercel.app/images/meta.png" />
+                <meta property="og:image" src="https://lcfr.vkyd.in/icons/meta.png" />
                 <meta content="en_US" property="og:locale" />
                 
                 {/* Twitter tags */}
@@ -43,7 +43,7 @@ const Index = () => {
                 <meta content="http://www.vkyd.in" name="twitter:url" />
                 <meta content={title} name="twitter:title" />
                 <meta content={description} name="twitter:description" />
-                <meta content="https://vkyd-next-js-cdn.vercel.app/images/twitter_meta.png" name="twitter:image" />
+                <meta content="https://lcfr.vkyd.in/icons/meta.png" name="twitter:image" />
 
                 {/* Icons */}
                 <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" /> 
@@ -63,7 +63,7 @@ const Index = () => {
 
             </Head>
             <div className="sub-container">
-                <img src="/logo.svg" /> 
+                <img src="/logos/lcfr-logo.svg" /> 
                 <h2>VKYD's wick3d CDN</h2>
                 <h3>
                     Check us out at &nbsp;
