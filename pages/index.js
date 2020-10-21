@@ -43,7 +43,7 @@ const Index = () => {
                 <meta content="http://www.vkyd.in" name="twitter:url" />
                 <meta content={title} name="twitter:title" />
                 <meta content={description} name="twitter:description" />
-                <meta content="https://lcfr.vkyd.in/icons/meta.png" name="twitter:image" />
+                <meta content="https://lcfr.vkyd.in/icons/twitter_meta.png" name="twitter:image" />
 
                 {/* Icons */}
                 <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" /> 
