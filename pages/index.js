@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 const Index = () => {
     const title = "LCFR: VKYD's wick3d CDN";
-    const description = "Hi, I'm Krish! A technophile and an engineering student from New Delhi. I aspire to develop ‘smarter’ energy sources with the lines I type.";
+    const description = "LCFR (/ˈluːsɪfə(r)/) is VKYD's wick3d CDN built using Next.JS deployed on Vercel";
     const keywords = "Krish Goel Skywalker Developer Freelancer Website Web Development Programming Engineering Imagineer New Delhi Coding UX UI Sanskriti School KrishSkywalker";
 
     return (
@@ -35,7 +35,7 @@ const Index = () => {
                 <meta content="https://lcfr.vkyd.in" property="og:url" />
                 <meta content={title} property="og:title" />
                 <meta content={description} property="og:description" />
-                <meta property="og:image" src="https://lcfr.vkyd.in/icons/meta.png" />
+                <meta property="og:image" src="https://lcfr.vkyd.in/icons/lcfr/meta.png" />
                 <meta content="en_US" property="og:locale" />
                 
                 {/* Twitter tags */}
@@ -43,23 +43,23 @@ const Index = () => {
                 <meta content="http://www.vkyd.in" name="twitter:url" />
                 <meta content={title} name="twitter:title" />
                 <meta content={description} name="twitter:description" />
-                <meta content="https://lcfr.vkyd.in/icons/twitter_meta.png" name="twitter:image" />
+                <meta content="https://lcfr.vkyd.in/icons/lcfr/twitter_meta.png" name="twitter:image" />
 
                 {/* Icons */}
-                <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" /> 
-                <link href="/icons/favicon.png" rel="icon" type="image/png" />
-                <link href="/icons/apple-touch-icon-180x180.png" rel="icon" sizes="180x180" type="image/png" />
-                <link href="/icons/apple-touch-icon-152x152.png" rel="icon" sizes="152x152" type="image/png" />
-                <link href="/icons/safari-pinned-tab.svg" rel="mask-icon" />
-                <link href="/icons/apple-touch-icon.png" rel="apple-touch-icon" />
-                <link href="/icons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
-                <link href="/icons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
-                <link href="/icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
-                <link href="/icons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
-                <link href="/icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
-                <link href="/icons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
-                <link href="/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-                <link href="/icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+                <link href="/icons/lcfr/favicon.png" rel="shortcut icon" type="image/png" /> 
+                <link href="/icons/lcfr/favicon.png" rel="icon" type="image/png" />
+                <link href="/icons/lcfr/apple-touch-icon-180x180.png" rel="icon" sizes="180x180" type="image/png" />
+                <link href="/icons/lcfr/apple-touch-icon-152x152.png" rel="icon" sizes="152x152" type="image/png" />
+                <link href="/icons/lcfr/safari-pinned-tab.svg" rel="mask-icon" />
+                <link href="/icons/lcfr/apple-touch-icon.png" rel="apple-touch-icon" />
+                <link href="/icons/lcfr/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+                <link href="/icons/lcfr/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+                <link href="/icons/lcfr/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+                <link href="/icons/lcfr/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+                <link href="/icons/lcfr/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+                <link href="/icons/lcfr/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+                <link href="/icons/lcfr/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+                <link href="/icons/lcfr/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
 
             </Head>
             <div className="sub-container">
