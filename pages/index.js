@@ -73,8 +73,8 @@ const Index = () => {
 
             <style jsx>{`
                 ::selection {
-                    background-color: #000000;
-                    color: #dddddd
+                    background-color: #ffffff;
+                    color: #e8026a
                 }
 
                 .container {
@@ -89,19 +89,17 @@ const Index = () => {
                     top: 40%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    
-                    background-color: #333333;
+                    background-color: #1D2022;
                 }
                 .sub-container {
                     text-align: -webkit-center;
                     width: 60%;
                     max-width: 500px;
-                    background-color: #333333;
+                    background: linear-gradient(266.6deg, #1F2224 46.48%, #1A1D1F 61.97%);
                     border-radius: 20px;
                     padding: 40px 40px;
                     color: #aaaaaa;
-                    box-shadow: 12px 12px 16px 0 #00000088,
-                                -8px -8px 12px 0 #4242424f;
+                    box-shadow: 14px 14px 50px 10px #0C0D0E, inset 14px 14px 10px rgba(46, 51, 54, 0.2);
                 }
 
                 @font-face {
