@@ -53,8 +53,3 @@ Check out this badboy at **[lcfr.vkyd.in](https://lcfr.vkyd.in)** serving conten
 
 ### License
 Licensed under the MIT License.
-
----
-
-### Note
-Split the meta and logos into VKYD and LCFR, ask Omu for the PNGs
