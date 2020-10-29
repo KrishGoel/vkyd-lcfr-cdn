@@ -1,6 +1,6 @@
 {
-	"background_color": "#ffffff",
-	"theme_color": "#000000",
+	"background_color": "#1D2022",
+	"theme_color": "#AAAAAA",
 	"name": "LCFR: VKYD's Next.JS based CDN",
 	"short_name": "VKYD CDN",
 	"display": "minimal-ui",

@@ -3,7 +3,7 @@ import Head from 'next/head';
 const Index = () => {
     const title = "LCFR: VKYD's wick3d CDN";
     const description = "LCFR (/ˈluːsɪfə(r)/) is VKYD's wick3d CDN built using Next.JS deployed on Vercel";
-    const keywords = "Krish Goel Skywalker Developer Freelancer Website Web Development Programming Engineering Imagineer New Delhi Coding UX UI Sanskriti School KrishSkywalker";
+    const keywords = "LCFR Lucifer VKYD Streetwear Akshaj Sharma Krish Goel Amartya Chakraborty Delhi Shopping";
 
     return (
         <div className="container">
@@ -27,15 +27,15 @@ const Index = () => {
                 <link rel="manifest" href="/manifest.json" />
                 <meta content="English" name="language" />
                 <base href="/" />
-                <meta content="#000000" name="theme-color" meta="meta" />
-                <meta content="#e8026a" name="msapplication-TileColor" />
+                <meta content="#1D2022" name="theme-color" meta="meta" />
+                <meta content="#1D2022" name="msapplication-TileColor" />
 
                 {/* Open Graph tags */}
                 <meta content="website" property="og:type" />
                 <meta content="https://lcfr.vkyd.in" property="og:url" />
                 <meta content={title} property="og:title" />
                 <meta content={description} property="og:description" />
-                <meta property="og:image" src="https://lcfr.vkyd.in/icons/lcfr/meta.png" />
+                <meta property="og:image" src="https://lcfr.vkyd.in/icons/seo/lcfr/meta.png" />
                 <meta content="en_US" property="og:locale" />
                 
                 {/* Twitter tags */}
@@ -43,23 +43,23 @@ const Index = () => {
                 <meta content="http://www.vkyd.in" name="twitter:url" />
                 <meta content={title} name="twitter:title" />
                 <meta content={description} name="twitter:description" />
-                <meta content="https://lcfr.vkyd.in/icons/lcfr/twitter_meta.png" name="twitter:image" />
+                <meta content="https://lcfr.vkyd.in/icons/seo/lcfr/twitter_meta.png" name="twitter:image" />
 
                 {/* Icons */}
-                <link href="/icons/lcfr/favicon.png" rel="shortcut icon" type="image/png" /> 
-                <link href="/icons/lcfr/favicon.png" rel="icon" type="image/png" />
-                <link href="/icons/lcfr/apple-touch-icon-180x180.png" rel="icon" sizes="180x180" type="image/png" />
-                <link href="/icons/lcfr/apple-touch-icon-152x152.png" rel="icon" sizes="152x152" type="image/png" />
-                <link href="/icons/lcfr/safari-pinned-tab.svg" rel="mask-icon" />
-                <link href="/icons/lcfr/apple-touch-icon.png" rel="apple-touch-icon" />
-                <link href="/icons/lcfr/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
-                <link href="/icons/lcfr/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
-                <link href="/icons/lcfr/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
-                <link href="/icons/lcfr/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
-                <link href="/icons/lcfr/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
-                <link href="/icons/lcfr/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
-                <link href="/icons/lcfr/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-                <link href="/icons/lcfr/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+                <link href="/icons/seo/lcfr/favicon.png" rel="shortcut icon" type="image/png" /> 
+                <link href="/icons/seo/lcfr/favicon.png" rel="icon" type="image/png" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-180x180.png" rel="icon" sizes="180x180" type="image/png" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-152x152.png" rel="icon" sizes="152x152" type="image/png" />
+                <link href="/icons/seo/lcfr/safari-pinned-tab.svg" rel="mask-icon" />
+                <link href="/icons/seo/lcfr/apple-touch-icon.png" rel="apple-touch-icon" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+                <link href="/icons/seo/lcfr/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
 
             </Head>
             <div className="sub-container">
